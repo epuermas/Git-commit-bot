@@ -33,7 +33,7 @@ def pull(repo,url):
 def push():
     global count
     os.system('cd')
-    os.system('git add . && git commit -m "commit number ' + str(count) + '"')
+    os.system('git add . && git commit -m "minor update number ' + str(count) + '"')
     os.system('git push origin master')
     count+=1
 
